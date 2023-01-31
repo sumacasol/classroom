@@ -1,12 +1,35 @@
 body {
     color:rgb(108, 74, 231);
-    background-color:cadetblue
+    background-color:cadetblue;
+    max-width:600px;
+    margin:0 auto;
 
 }
-
+    
+    
 p {
     background-color:rgb(189, 166, 216);
     border: 5px solid;
+    padding: 20px;
+    text-align: center;
+
+}
+p:hover {
+    background-color:darksalmon;
 }
 
+a {
+    color:darkgreen;
+    text-decoration:none;
+}
 
+a:hover {
+    color:brown;
+    text-decoration:line-through;
+}
+.special {
+    font-size:25px;
+}
+.new {
+    background-color:cornflowerblue;
+}
