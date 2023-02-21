@@ -7,7 +7,7 @@ body {
 }
 
 .main-container {
-  background:lightgreen;
+  background:rgb(205, 124, 148);
   display:flex;
   flex-direction:column;
   height:100vh;
@@ -17,19 +17,24 @@ body {
 
 .upper {
   width:100%;
-  height:25%;
+  height:15%;
   display:flex;
   gap:10px;
   justify-content:space-evenly;
 }
 
 .upper-item {
-  background:blueviolet;
+  background:greenyellow;
   width:300px;
   height:50px;
 }
+
+.upper-item:hover {
+  background-color:rgb(6, 58, 4);
+}
 .second {
   width:100%;
+  height:15%;
   display:flex;
   gap:10px;
   justify-content: space-evenly;
@@ -37,7 +42,183 @@ body {
 }
 
 .second-row {
-  background:forestgreen;
+  background:rgb(128, 255, 0);
   width:200px;
   height:50px;
+}
+.second-row:hover {
+  background-color:rgb(13, 72, 11);
+}
+
+.third {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+
+.third-row {
+  background-color:rgb(108, 249, 108);
+  width:70px;
+  height:50px;
+}
+.third-row:hover {
+  background-color:rgb(45, 104, 43);
+}
+
+.fourth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.fourth-row {
+  background-color: rgb(91, 239, 71);
+  width:100px;
+  height:50px;
+}
+.fourth-row:hover {
+  background-color:rgb(3, 139, 21);
+}
+
+.fifth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.fifth-row {
+  background-color: rgb(35, 228, 96);
+  width:100px;
+  height:50px;
+}
+.fifth-row:hover {
+  background-color:rgb(26, 175, 83);
+}
+
+.sixth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.sixth-row {
+  background-color:rgb(43, 205, 78);
+  width:100px;
+  height:50px;
+}
+.sixth-row:hover {
+  background-color:rgb(44, 194, 24);
+}
+
+.seventh {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.seventh-row {
+  background-color:rgb(44, 194, 24);
+  width:200px;
+  height:50px;
+}
+.seventh-row:hover {
+  background-color:rgb(43, 205, 78);
+}
+
+.eigth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.eigth-row {
+  background-color:rgb(26, 175, 83);
+  width:400px;
+  height:50px;
+}
+.eigth-row:hover {
+  background-color:rgb(35, 228, 96);
+}
+
+.ninth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.ninth-row {
+  background-color:rgb(3, 139, 21);
+  width:200px;
+  height:50px;
+}
+.ninth-row:hover {
+  background-color:rgb(91, 239, 71);
+}
+
+.tenth {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.tenth-row {
+  background-color:rgb(45, 104, 43);
+  width:150px;
+  height:50px;
+}
+.tenth-row:hover {
+  background-color:rgb(108, 249, 108);
+}
+
+.el {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.el-row {
+  background-color:rgb(13, 72, 11);
+  width:90px;
+  height:50px;
+}
+.el-row:hover {
+  background-color:rgb(128, 255, 0);
+}
+
+.twelve {
+  width:100%;
+  height:15%;
+  display:flex;
+  gap:10px;
+  justify-content:space-evenly;
+}
+.twelve-row {
+  background-color:rgb(6, 58, 4);
+  width:90px;
+  height:50px;
+}
+.twelve-row:hover {
+  background-color:greenyellow;
+}
+
+
+
+.new {
+  width:300px;
+}
+.special {
+  width:150px;
+}
+.small {
+  width:70px;
 }
