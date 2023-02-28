@@ -111,7 +111,12 @@ a {
     animation: spin 10s infinite;
 }
 
-
+.moon {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position;foxed
+}
 
 .widen {
     width:50px;
