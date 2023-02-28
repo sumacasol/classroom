@@ -115,7 +115,10 @@ a {
     width:5vw;
     height:5vw;
     display:flex;
-    position;foxed
+    position:fixed;
+    top:0;
+    right:30px;
+    animation:pulse 5s infinite ease-in-out;
 }
 
 .widen {
