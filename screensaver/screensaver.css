@@ -1,0 +1,158 @@
+* {
+    box-sizing:border-box;
+}
+
+body, html {
+    margin:0;
+    height:100%;
+    width:100%;
+}
+a {
+    width:5vw;
+    height:5vw;
+    position:fixed;
+
+}
+
+.flex {
+    height:100%;
+    width:100%;
+    background-color: black;
+    display:flex;
+    position:relative;
+}
+
+.star {
+    display:flex;
+    width:15vw;
+    height:15vw;
+    position:fixed;
+    transition:width 2s, height 2s;
+    animation: fall 10s infinite ease-in;
+}
+.glow {
+    width:5vw;
+    height:5vw;
+    position:fixed;
+    top:10px;
+    right:20px;
+    animation:pulse 5s infinite ease-in-out;
+}
+
+.point {
+    height:5vw;
+    width:5vw;
+    animation: fall 10s infinite ease-in;
+}
+
+.second-row {
+    width:5vw;
+    height:5vw;
+    display: flex;
+    position:fixed;
+    top:-400px;
+    left:0;
+    animation:fall 10s infinite ease-in;
+}
+
+.third-row {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position:fixed;
+    top:400px;
+    left:0;
+    animation:fall 10s infinite ease-in;
+}
+
+.fourth-row {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position:relative;
+    top:-200px;
+    left:10px;
+    animation:fall 10s infinite ease-in;
+
+}
+
+.fifth-row {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position:fixed;
+    top:200px;
+    left:10px;
+    animation:fall 10s infinite ease-in;
+}
+
+.sixth-row {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position:fixed;
+    top:-600px;
+    left:10px;
+    animation:fall 10s infinite ease-in;
+}
+
+.seventh {
+    width:5vw;
+    height:5vw;
+    display:flex;
+    position:fixed;
+    top:-800px;
+    left:10px;
+    animation:fall 10s infinite ease-in;
+}
+.heart {
+    height:5vw;
+    width:5vw;
+    animation: spin 10s infinite;
+}
+
+
+
+.widen {
+    width:50px;
+    height:50px;
+    background:black;
+    transition:width 2s, height 2s;
+}
+.widen:hover {
+    width:100px;
+    height:100px;
+}
+
+@keyframes fall {
+    0% {
+        transform:translateY(-10vh)
+    }
+    100% {
+        transform:translateY(300vh)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform:scale(1)
+    }
+    50% {
+        transform:scale(1.5)
+    }
+    100% {
+        transform:scale(1)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0)
+
+    }
+    100% {
+        transform:rotate(360deg)
+    }
+   
+    
+}
