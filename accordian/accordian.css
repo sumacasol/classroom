@@ -1,0 +1,480 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:black;
+    align-items:center;
+}
+header {
+    text-align:center;
+    padding:10px;
+}
+.container {
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+}
+.water {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+main {
+    display:flex;
+}
+
+@media screen and (max-width:2000px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:contents;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:contents;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:1400px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:contents;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:1300px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:contents;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:1200px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:contents;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:1100px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:contents;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:1000px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:contents;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:900px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:contents;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:800px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:contents;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:700px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:contents;
+    }
+    #water_11 {
+        display:none;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        align-items:center;
+    }
+    main {
+        flex-direction:column;
+    }
+    #water_1 {
+        display:none;
+    }
+    #water_2 {
+        display:none;
+    }
+    #water_3 {
+        display:none;
+    }
+    #water_4 {
+        display:none;
+    }
+    #water_5 {
+        display:none;
+    }
+    #water_6 {
+        display:none;
+    }
+    #water_7 {
+        display:none;
+    }
+    #water_8 {
+        display:none;
+    }
+    #water_9 {
+        display:none;
+    }
+    #water_10 {
+        display:none;
+    }
+    #water_11 {
+        display:contents;
+    }
+}
