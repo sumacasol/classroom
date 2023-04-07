@@ -49,10 +49,7 @@ main {
     align-items:center;
 }
 
-img {
-    overflow-clip-margin: content-box;
 
-}
 @media screen and (max-width:2000px) {
     body{
         align-items:center;
