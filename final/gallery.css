@@ -1,9 +1,25 @@
 @font-face {
-    font-family: basiic;
-    src: url(basiic.ttf);
+    font-family: yoster;
+    src: url(yoster.ttf);
 }
 
-* {
-    box-sizing:border-box;
-    font-family: basiic;
+*{
+    box-sizing: border-box;
+    font-family: yoster
+}
+
+body {
+    background-color:black;
+    color:antiquewhite;
+    font-size: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.art {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
