@@ -18,8 +18,19 @@ body {
     flex-direction:column;
 }
 
+.title {
+    background-color:beige;
+    display:flex;
+    border: solid 10px crimson;
+
+}
 .art {
     display:flex;
     justify-content:center;
     align-items:center;
+    gap:10px;
+}
+
+p   {
+    border-radius: 5px;
 }
