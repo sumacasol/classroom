@@ -1,0 +1,9 @@
+@font-face {
+    font-family: basiic;
+    src: url(basiic.ttf);
+}
+
+* {
+    box-sizing:border-box;
+    font-family: basiic;
+}
