@@ -10,20 +10,27 @@
 
 body {
     background-color:black;
-    color:antiquewhite;
-    font-size: 100px;
+    color:goldenrod;
+    font-size: 50px;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    gap:50px;
 }
 
 .title {
     background-color:beige;
+    background-image: url(welcome.png);
+    width:1010px;
+    height: 370px;
     display:flex;
-    border: solid 10px crimson;
-
+    justify-content:space-around;
+    align-items:flex-end;
+    border-radius: 50px;
+    
 }
+
 .art {
     display:flex;
     justify-content:center;
