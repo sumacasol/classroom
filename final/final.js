@@ -1,3 +1,4 @@
+
 const container = document.querySelector('.container')
 const sizeEl = document.querySelector('.size')
 let size = sizeEl.value
@@ -78,6 +79,9 @@ btnSave.addEventListener('click', function() {
     document.body.appendChild(downloadLink)
     downloadLink.click()
     document.body.removeChild(downloadLink)
+
+    
+
 })
 
 populate(size)

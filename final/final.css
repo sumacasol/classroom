@@ -17,7 +17,66 @@ html {
     cursor: url(cursor2.ico), pointer;
 }
 
-body{
+body {
+    background-color:midnightblue;
+}
+body.activated {
+    background: darkcyan;
+}
+
+main {
+    background-color:midnightblue;
+}
+.box {
+    padding: 40px;
+    background-color: slategray;
+    color:darkmagenta;
+    font-size: 20px;
+    letter-spacing:3px;
+    text-shadow:white; 
+    line-height: 1.4;
+    position:fixed;
+    top: 0;
+    right:-300px;
+    width:300px;
+    height:100vh;
+    border-left:1px solid;
+    transition:right .5s;
+}
+
+.box.activated {
+    right:0;
+}
+
+
+.plus {
+    cursor: pointer;
+    position:fixed;
+    top:30px;
+    left:40px;
+    width:5vw;
+    height:5vh;
+    animation:pulse 5s infinite ease-in-out;
+}
+
+button:hover {
+    background:pink;
+}
+
+.type {
+    color:#0000;
+    background:
+      linear-gradient(-90deg,midnightblue 5px,#0000 0) 10px 0,
+      linear-gradient(midnightblue 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    animation: 
+     b .5s infinite steps(1),   
+     t calc(var(--n)*.1s) steps(var(--n)) forwards;
+}
+.contain {
     background-color:midnightblue;
     display: flex;
     justify-content: center;
@@ -50,14 +109,14 @@ body{
 
 .container{
     --size: 4;
-    height: 800px;
+    height: 700px;
     display: grid;
     grid-template-columns: repeat(var(--size), 1fr);
     grid-template-rows: repeat(var(--size), 1fr);
     gap: 3px;
     padding: 3px;
 }
-.pixel{
+.pixel {
     background-color: rgb(61, 61, 61);
     border-radius: 2px;
 }
@@ -67,7 +126,7 @@ body{
     height:5vh;
     display:flex;
     position:fixed;
-    top:20px;
+    bottom:20px;
     left:20px;
     animation:pulse 5s infinite ease-in-out;
 }
@@ -82,4 +141,11 @@ body{
     100% {
         transform:scale(1)
     }
+}
+
+@keyframes t{
+    from {background-size:0 200%}
+}
+@keyframes b{
+    50% {background-position:0 -100%,0 0}
 }

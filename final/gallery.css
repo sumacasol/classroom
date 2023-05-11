@@ -35,9 +35,11 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:10px;
+    margin:20px;
+
 }
 
-p   {
-    border-radius: 5px;
-}
+
+.picture {
+    
+

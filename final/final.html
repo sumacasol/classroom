@@ -8,26 +8,55 @@
     <link rel="stylesheet" href="final.css">
     <title>Final</title>
     <link rel="icon" type="image/ico" href="ghost.ico">
-    <a href="galleria.html" class="special">Gallery</a>
 
 </head>
 
 <body>
-    <div class="navbar">
-        <button class="btn">Reset</button>
-        <button id="btnSave" class="btn">Save</button>
-        <input type="color" value="#00eeff" class="color">
-        <input type="number" value="30" class="size">
-    </div>
-    <div class="container">
-    </div>
-    <div class="heart">
-        <a href="galleria.html">
-            <img width="50px" height="50px" src="redheart.png">
-        </a>
+    <div class="contain">
+        <div class="main">
+            <div class="plus">
+                <button onclick="toggleClass()">Click me!</button>
+            </div>
+        <div id="menu" class="box">
+            <span class="type" style="--n:182">Hello! Use the grid on the left to create your very own pixel art! Click the save button to save your work and then click the red heart in the corner to view the gallery! Have fun :) </span>   
+        </div>
+        <div class="navbar">
+            <button class="btn">Reset</button>
+            <button id="btnSave" class="btn">Save</button>
+            <input type="color" value="#00eeff" class="color">
+            <input type="number" value="30" class="size">
+        </div>
+        <div class="container">
+            
+        </div>
+        <div class="heart">
+            <a href="galleria.html">
+                <img width="50px" height="50px" src="redheart.png">
+            </a>
+        </div>
     </div>
     
+
+
     <script src="final.js"></script>
+    <script>
+  
+
+        // this is the function we want to call when the button is clicked
+        function toggleClass() {
+        // first we set up a variable to store a longer line of code in case we want to reference it quickly later
+        // here, we're creating a shorthand way of targeting a specific element with an id by using javascript's getElementById method
+        var menu = document.getElementById("menu");
+        var obj = document.getElementById("obj");
+        var docbody = document.body;
+    
+        // in this line we use javascript's built-in classList property and toggle method to toggle a class on and off
+        menu.classList.toggle("activated");
+        obj.classList.toggle("activated");
+        docbody.classList.toggle("activated");
+    
+        }
+      </script>
 </body>
 
 </html>
