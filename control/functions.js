@@ -1,6 +1,5 @@
 $( function() {
- 
-  $( ".sortable" ).sortable({
+  $( "#sortable" ).sortable({
     revert: true
   });
   $( ".draggable" ).draggable({
@@ -8,5 +7,7 @@ $( function() {
     helper: "clone",
     revert: "invalid"
   });
-  $( "ul, li" ).disableSelection();
+
 } );
+  
+  

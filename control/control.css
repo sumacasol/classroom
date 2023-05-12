@@ -1,10 +1,20 @@
+@font-face {
+    font-family: heartfont;
+    src: url(heartfont.ttf);
+}
 * {
     box-sizing: border-box;
+    font-family: heartfont;
 }
 
 body {
     background-color:slateblue;
     cursor:grab;
+    display:flex;
+    font-size: 30px;
+}
+
+main {
     display:flex;
 }
 ul { 
@@ -13,47 +23,27 @@ ul {
     padding: 0; 
     margin-bottom: 10px; 
 }
-
 li { 
     margin: 5px; 
     padding: 5px; 
-    width: 100px; 
+    width: 150px; 
 }
-main {
-    display:flex;
 
-}
-.container {
-    width:100vw;
-    display:flex;
+.opinion {
+    width:20vw;
+    height:50vh;
+    position:fixed;
+    top: 40px;
+    left:20px;
     flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid blue;
-}
-
-.assertion {
-    flex-direction:column;
 }
 
 .options {
-    width:75vw;
-    height:500px;
-    display:flex;
+    width: 1200px;
+    height:2000px;
+    position:relative;
+    top: 30px;
+    left:200px;
     flex-direction: row;
-    border: 1px solid black;
-}
-.draggable {
-
-}
-
-.sortable {
-    
-}
-
-.column {
-    width:1000px;
-    height:500px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    column-count:3;
 }
