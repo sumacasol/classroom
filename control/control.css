@@ -30,7 +30,7 @@ li {
 }
 
 .opinion {
-    width:20vw;
+    width:40vw;
     height:50vh;
     position:fixed;
     top: 40px;
@@ -46,4 +46,8 @@ li {
     left:200px;
     flex-direction: row;
     column-count:3;
+}
+
+.draggable {
+    width:200px;
 }
